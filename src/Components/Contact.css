@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.clad{
+    background: url("../assets/img2.png");
+       background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    /* padding-top: 2rem; */
+    position: relative;
+    top: -0.9rem;
+}
+
+
+.bb{
+    width: 100%;
+    height: 0.1vh;
+    position: relative;
+    top: 0.9rem;
+    /* margin-top: 0.4rem; */
+    border: 0.2px solid rgb(169, 168, 168);
+}
+
+.ks{
+    width: 100%;
+    height: 0.1vh;
+    position: relative;
+    top: -0.9rem;
+    /* margin-top: 0.4rem; */
+    border: 0.2px solid rgb(169, 168, 168);
+}
+
+.clad h1{
+    padding-top: 4rem;
+}
+
+.clad h3{
+    color: white;
+}
+
+.opw{
+    margin-top: 3rem;
+    text-align: left;
+}
+
+.nxa{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.nxa svg{
+    width: clamp(2rem, 3vw + 0.5rem, 3.5rem);
+    height: clamp(2rem, 3vw + 0.5rem, 3.5rem);
+    color: #7138F5;
+}
+
+.nxx{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* position: relative; */
+    /* left: 1.5rem; */
+    margin-left: 2.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.nxx svg{
+    width: clamp(2rem, 3vw + 0.5rem, 3.5rem);
+    height: clamp(2rem, 3vw + 0.5rem, 3.5rem);
+    color: #7138F5;
+}
+
+
+.nxa h3,
+.nxx h3
+{
+    color: white;
+}
+
+.nxa h4,
+.nxx h4{
+        color: #7138F5;
+}
