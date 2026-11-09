@@ -89,9 +89,7 @@ const Home = () => {
         return () => {
             isMounted = false
         }
-    }, [])
-
-
+    }, []);
     // ADD PRODUCT TO CART
     const handleAddToCart = (product) => {
         const productId = String(product.productId ?? product.id)
