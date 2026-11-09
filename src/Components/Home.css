@@ -876,10 +876,10 @@ display: none;
 .fhs{
     /* background: url("../assets/img6.png"); */
     /* background-color: #885af4; */
-    background: linear-gradient(90deg, #C6A3FF 0%, #D9A8FF 40%, #F496E2 100%);
+    /* background: linear-gradient(90deg, #C6A3FF 0%, #D9A8FF 40%, #F496E2 100%);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     /* background-position: top; */
     /* background-size: cover; */
     /* object-fit: contain; */
@@ -887,9 +887,28 @@ display: none;
     height: 12vh;
     /* background-repeat: no-repeat; */
     position: relative;
-    color: transparent;
+    /* color: transparent; */
+    background: linear-gradient(180deg, #0F0829 0%, #171441 35%, #211463 60%, #28187B 100%);
+  min-height: 100vh;
+  padding: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
     /* top: rem; */
 }
+
+/* THE BACKGROUND - dark purple from your flyer */
+.fhs h1,
+.fhs h2,
+.fhs h3,
+.fhs p {
+  background: linear-gradient(90deg, #C6A3FF 0%, #D9A8FF 40%, #F496E2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: 700;
+}
+
 
 .ciro h1{
     list-style: 1.5;
