@@ -884,12 +884,12 @@ display: none;
     /* background-size: cover; */
     /* object-fit: contain; */
     width: 100%;
-    height: 12vh;
+    /* height: 12vh; */
     /* background-repeat: no-repeat; */
     position: relative;
     /* color: transparent; */
     background: linear-gradient(180deg, #0F0829 0%, #171441 35%, #211463 60%, #28187B 100%);
-  min-height: 100vh;
+  min-height: 70vh;
   padding: 20px;
   border-radius: 20px;
   color: #FFFFFF;
