@@ -557,5 +557,15 @@
     max-width: 100%;
     object-fit: cover;
 }
+.sa{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    width: clamp(20rem, 80vw, 100rem);
+    margin-left: 0rem;
+    border-radius: clamp(0.5rem, 1.5vw, 1.25rem);
+    background-color:  #211439;
+}
 
 }
