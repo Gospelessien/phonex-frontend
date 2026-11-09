@@ -842,18 +842,19 @@ top: 0.7rem;
 }
 
 .flory img{
-width: clamp(480px, 39vw, 500px);
+/* width: clamp(480px, 39vw, 500px);
 height:40vh;
 max-width: 86%;
 object-fit: cover;
 position: relative;
-top: 4rem;
+top: 4rem; */
+display: none;
 }
 .fvi{
     /* display: flex;
     align-items: center;
     justify-content: space-around; */
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 .fhs{
     /* background: url("../assets/img6.png"); */
