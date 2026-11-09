@@ -237,7 +237,7 @@ const Home = () => {
                                 <h1>Flash Sale Up to 20% Off</h1>
                                 <h3>Brand-new Phones Ends Soon</h3>
                                 <div className="bds">
-                                    <h2>Upgrade your phone, <br /> <span className="tot">Keep your money</span></h2>
+                                    <h2><span className="tot">Upgrade your phone, <br /> Keep your money</span></h2>
                                     <p>Swap your old phone and pay only the difference</p>
                                 </div>
                                 <button onClick={() => navigate("/cart")}>
