@@ -842,7 +842,7 @@ top: 0.7rem;
 }
 
 .flory img{
-width: clamp(500px, 36vw, 500px);
+width: clamp(500px, 36vw, 600px);
 height:57vh;
 max-width: 86%;
 object-fit: cover;
