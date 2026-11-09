@@ -547,7 +547,7 @@
     width: 100%;
     height: 0.1vh;
     position: relative;
-    top: 2rem;
+    top: 3rem;
     /* margin-top: 0.4rem; */
     border: 0.2px solid rgb(169, 168, 168);
 }
@@ -633,7 +633,7 @@
     width: 100%;
     height: 78.7vh;
     position: relative;
-    top: 2rem;
+    top: 3rem;
 }
 
 }
