@@ -849,7 +849,12 @@ object-fit: cover;
 position: relative;
 top: 4rem;
 }
-
+.fvi{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    flex-direction: column;
+}
 .fhs{
     /* background: url("../assets/img6.png"); */
     background-color: #885af4;
