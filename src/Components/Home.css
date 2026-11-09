@@ -523,6 +523,18 @@
     box-sizing: border-box;
  }   
 
+
+
+ .dvg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+    gap: 0.8rem;
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
  .wedo {
         position: fixed;
         top: 0;
@@ -547,7 +559,7 @@
     width: 100%;
     height: 0.1vh;
     position: relative;
-    top: 3rem;
+    top: 3.3rem;
     /* margin-top: 0.4rem; */
     border: 0.2px solid rgb(169, 168, 168);
 }
@@ -633,7 +645,7 @@
     width: 100%;
     height: 78.7vh;
     position: relative;
-    top: 3rem;
+    top: 3.3rem;
 }
 
 }
