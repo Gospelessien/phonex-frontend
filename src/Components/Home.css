@@ -829,6 +829,12 @@ top: 0.7rem;
         display: block;
     }
 
+    .fhs h1{
+    padding-top: 7rem;
+    color: #7138F5 ;
+    font-size: clamp(2rem, 3.5vw, 3.5rem);
+}
+
     .bds h2{
         font-size: clamp(1.75rem, 3.5vw, 2.875rem);
         padding-top: 0.3rem;
