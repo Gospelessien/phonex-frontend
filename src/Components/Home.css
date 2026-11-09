@@ -593,6 +593,17 @@
     gap: 2rem;
 }
 
+.fhs{
+    background: url("../assets/img2.png");
+    background-position: top;
+    background-size: cover;
+    object-fit: contain;
+    width: 100%;
+    height: 90.3vh;
+    position: relative;
+    top: -1.5rem;
+}
+
 }
 
 
