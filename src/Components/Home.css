@@ -552,7 +552,7 @@
   /* padding: clamp(1rem, 3vw, 2rem); */
 }
 .lbz img{
-    width: clamp(390px, 30vw, 500px);
+    width: clamp(250px, 30vw, 500px);
     height: 66vh;
     max-width: 100%;
     object-fit: cover;
@@ -563,7 +563,7 @@
     justify-content: space-evenly;
     margin-top: 4rem;
     width: clamp(20rem, 80vw, 100rem);
-    margin-left: 0rem;
+    margin-left: 1rem;
     border-radius: clamp(0.5rem, 1.5vw, 1.25rem);
     background-color:  #211439;
 }
