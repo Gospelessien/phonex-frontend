@@ -9,6 +9,7 @@ import img3 from "../assets/img3.png"
 import img4 from "../assets/img4.png"
 import img5 from "../assets/img5.png"
 import img6 from "../assets/img6.png"
+import img7 from "../assets/img7.jpeg"
 
 import {
     FaArrowRight,
@@ -20,10 +21,11 @@ import {
     FaTag,
     FaTruckMoving,
     FaWhatsapp,
-    FaBars
+    FaBars,
+    FaCreditCard
 } from "react-icons/fa"
 
-import { FaX } from 'react-icons/fa6'
+import { FaRepeat, FaX } from 'react-icons/fa6'
 import { useCart } from "./CartContext"
 import { getProducts } from "./api"
 
@@ -212,7 +214,7 @@ const Home = () => {
 
                     <div>
 
-                        <h1>Smartphones Made Better</h1>
+                        {/* <h1>Smartphones Made Better</h1>
 
                         <h3>
                             Discover Technology , <br />
@@ -228,13 +230,20 @@ const Home = () => {
                         <p className='parat'>From premium iPhones to powerful <br />
                         Android devices, find your perfect match <br /> 
                         at prices you'll love.
-                        </p>
+                        </p> */}
                         
-                        <h3> <span className='fias'>Quality • Innovation • Affordability</span> </h3>
-
-                        <button onClick={() => navigate("/cart")}>
+                        <div className='fvi'>
+                            <div  className='ciro'>
+                                <h1>Flash Sale Up to 20% Off</h1>
+                                <h3>Brand-new Phones Ends Soon</h3>
+                                <button onClick={() => navigate("/cart")}>
                             Cart <FaArrowRight/>
                         </button>
+                            </div>
+                            <div className='flory'>
+                                <img src={img5}/>
+                            </div>
+                        </div>                        
 
                     </div>
 
@@ -287,6 +296,39 @@ const Home = () => {
                     </div>
 
                 </div>
+
+
+                <div className="pp"></div>
+                    
+                            <div className='ooe'>
+                                <h2 className='croew'>Why PhoneX <span className="tot">?</span></h2>
+                                <div>
+                                <div className='propsi'>
+                                <div className='doa'>
+                                <div className='doyy'>
+                                   <div>
+                                        <FaRepeat/>
+                                    </div>     
+                                    <div>
+                                        <h2>Trade-in</h2>
+                                    </div>
+                                </div>
+                                <p>Swap your old phone, pay  the difference</p>
+                                </div>
+                                <div className='doy'>
+                                <div className='doyi'>
+                                    <div>
+                                        <FaCreditCard/>
+                                    </div>
+                                    <div>
+                                        <h2>Installments</h2>
+                                    </div>
+                                </div>
+                                <p>Pay in 2-3 parts Installmentally</p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
 
 
                 <div className="pp"></div>
