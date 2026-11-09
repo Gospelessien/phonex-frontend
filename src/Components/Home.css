@@ -843,11 +843,11 @@ top: 0.7rem;
 
 .flory img{
 width: clamp(480px, 39vw, 500px);
-height:61vh;
+height:40vh;
 max-width: 86%;
 object-fit: cover;
 position: relative;
-top: 2rem;
+top: 4rem;
 }
 
 .fhs{
