@@ -89,3 +89,16 @@
 .nxx h4{
         color: #7138F5;
 }
+
+@media (max-width:699px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    .clad h1{
+    padding-top: 6.9rem;
+}
+}
