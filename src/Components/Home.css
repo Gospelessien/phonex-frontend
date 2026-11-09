@@ -750,12 +750,6 @@ top: 0.5rem;
     display: flex;
 }
 
-.casd{
-    /* position: relative; */
-    /* margin-left: 6rem; */
-    /* left: 6.3rem; */
-    /* margin-left: 6rem; */
-}
 
 .wedo{
     display: flex;
@@ -795,12 +789,12 @@ top: 0.5rem;
 }
 
 .flory img{
-width: clamp(280px, 30vw, 500px);
+width: clamp(320px, 30vw, 500px);
 height:57vh;
-max-width: 70%;
+max-width: 79%;
 object-fit: cover;
 position: relative;
-top: 0.7rem;
+top: 1.1rem;
 /* margin-top: 2rem; */
 }
 
