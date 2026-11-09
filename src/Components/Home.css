@@ -26,8 +26,20 @@
     text-decoration: none;
     /* color: white; */
     color: #7138F5 ;
+
     font-size: clamp(1.3rem, 1.2vw, 2rem);
     
+}
+
+
+.fhs button:hover{
+    background-color: #33059e;
+    border: 1px solid #33059e;
+}
+
+.lbz button:hover{
+    background-color: #33059e;
+    border: 1px solid #33059e;
 }
 
 .dd a:hover{
@@ -518,7 +530,7 @@
         width: 100%;
         height: 12vh;
         z-index: 9999;
-        background-color: rgb(27, 26, 26);
+        background-color:#252525;
     }
 
  .fify{
@@ -535,7 +547,7 @@
     width: 100%;
     height: 0.1vh;
     position: relative;
-    top: 1.6rem;
+    top: 2rem;
     /* margin-top: 0.4rem; */
     border: 0.2px solid rgb(169, 168, 168);
 }
@@ -621,7 +633,7 @@
     width: 100%;
     height: 78.7vh;
     position: relative;
-    top: 1.6rem;
+    top: 2rem;
 }
 
 }

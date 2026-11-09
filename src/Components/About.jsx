@@ -209,7 +209,7 @@ const About = () => {
                 <div className='woe'>
 
                     <h3>
-                        <span className="xxx">PhoneX &copy;.</span>
+                        <span className="xxx"> &copy; 2026 PhoneX.</span>
                         {" "}All Rights Reserved.
                     </h3>
 
