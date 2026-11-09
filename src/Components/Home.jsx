@@ -215,9 +215,22 @@ const Home = () => {
                         <h1>Smartphones Made Better</h1>
 
                         <h3>
-                            Latest Phones, Best prices, <br />
-                            Shop with confidence.
+                            Discover Technology , <br />
+                            Without Limits.
                         </h3>
+
+                        <p className='pta'>Explore the latest Smartphones, <br />
+                        experience powerful performance, capture <br />
+                        stunning moments, and enjoy innovative <br />
+                         feautures designed to keep you ahead.
+                        </p>
+
+                        <p className='parat'>From premium iPhones to powerful <br />
+                        Android devices, find your perfect match <br /> 
+                        at prices you'll love.
+                        </p>
+                        
+                        <h3> <span className='fias'>Quality • Innovation • Affordability</span> </h3>
 
                         <button onClick={() => navigate("/cart")}>
                             Cart <FaArrowRight/>

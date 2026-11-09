@@ -67,14 +67,46 @@
 }
 
 .fhs{
-    background: url("../assets/img3.png");
+    background: url("../assets/img2.png");
     background-position: top;
     background-size: cover;
     object-fit: contain;
     width: 100%;
-    height: 58vh;
+    height: 91.5vh;
     position: relative;
     top: -1.5rem;
+}
+
+.fhs .pta{
+    color: white;
+    /* color: #7138F5 ; */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: clamp(1rem, 2vw, 2.2rem);
+    font-weight: bold;
+}
+
+.fhs .parat{
+    /* color: #331c6b ; */
+    color: white;
+    font-size: clamp(1rem, 2vw, 2.2rem);
+    list-style: 1.2;
+    font-weight: bold;
+    padding-top: 0.1rem;
+    padding-bottom: 0.8rem;
+}
+
+.fhs h3{
+    font-weight: bold;
+}
+
+.fhs h1{
+    font-weight: bold;
+}
+
+.fias{
+    /* padding-top: 4rem; */
+    color: #7138F5 ;
 }
 
 .dvg{
@@ -421,8 +453,8 @@
 /* Red notification number */
 .cart-count {
     position: absolute;
-    top: -12px;
-    right: -12px;
+    top: -6px;
+    right: 40px;
 
     min-width: 19px;
     height: 19px;
@@ -507,8 +539,9 @@
 
     .cart-count {
     position: absolute;
-    top: -3px;
-    right: -3px;
+    top: 3px;
+    right: -65px;
+    /* left: 3px; */
 
     min-width: 19px;
     height: 19px;
@@ -578,12 +611,12 @@
   /* width: 100%; */
   /* padding: clamp(1rem, 3vw, 2rem); */
 }
-.lbz img{
+/* .lbz img{
     width: clamp(0px, 30vw, 500px);
     height: 66vh;
     max-width: 100%;
     object-fit: cover;
-}
+} */
 .sa{
     display: flex;
     align-items: center;
