@@ -90,7 +90,9 @@
     position: relative;
     /* top: rem; */
 }
-
+.bds{
+    display: none;
+}
 .propsi{
     display: flex;
     align-items: center;
@@ -823,6 +825,15 @@ top: 0.7rem;
     max-width: 100%;
     object-fit: cover;
 } */
+    .bds{
+        display: block;
+    }
+
+    .bds h2{
+        font-size: clamp(1.75rem, 3.5vw, 2.875rem);
+        padding-top: 0.3rem;
+    }
+
 .sa{
     display: flex;
     align-items: center;
@@ -850,12 +861,7 @@ position: relative;
 top: 4rem; */
 display: none;
 }
-.fvi{
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around; */
-    /* flex-direction: column; */
-}
+
 .fhs{
     /* background: url("../assets/img6.png"); */
     background-color: #885af4;
