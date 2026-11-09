@@ -789,12 +789,12 @@ top: 0.5rem;
 }
 
 .flory img{
-width: clamp(320px, 30vw, 500px);
+width: clamp(280px, 30vw, 500px);
 height:57vh;
-max-width: 79%;
+max-width: 70%;
 object-fit: cover;
 position: relative;
-top: 1.1rem;
+top: 0.7rem;
 /* margin-top: 2rem; */
 }
 
@@ -841,14 +841,14 @@ top: 1.1rem;
     object-fit: cover;
 }
 
-/* .flory img{
-width: clamp(470px, 36vw, 500px);
+.flory img{
+width: clamp(500px, 36vw, 500px);
 height:57vh;
 max-width: 86%;
 object-fit: cover;
 position: relative;
 top: 1.4rem;
-} */
+}
 
 .fhs{
     /* background: url("../assets/img6.png"); */
