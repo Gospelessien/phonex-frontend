@@ -67,7 +67,7 @@
 }
 
 .fhs{
-    background: url("../assets/img2.png");
+    background: url("../assets/img6.png");
     background-position: top;
     background-size: cover;
     object-fit: contain;
@@ -254,7 +254,7 @@
 
 .lbz img{
     width: clamp(390px, 30vw, 500px);
-    height: 53vh;
+    height: 66vh;
     max-width: 100%;
     object-fit: cover;
 }
@@ -594,7 +594,7 @@
 }
 
 .fhs{
-    background: url("../assets/img2.png");
+    background: url("../assets/img6.png");
     background-position: top;
     background-size: cover;
     object-fit: contain;
@@ -637,6 +637,13 @@
     margin-left: 1rem;
     border-radius: clamp(0.5rem, 1.5vw, 1.25rem);
     background-color:  #211439;
+}
+
+.lbz img{
+    width: clamp(390px, 30vw, 500px);
+    height: 80vh;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 }
