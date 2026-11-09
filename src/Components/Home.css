@@ -511,6 +511,15 @@
     box-sizing: border-box;
  }   
 
+ .wedo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        background-color: white;
+    }
+
  .fify{
     display: grid;
   grid-template-columns: repeat(2, minmax(0,1fr) );
