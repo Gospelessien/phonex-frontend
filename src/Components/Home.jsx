@@ -100,7 +100,7 @@ const Home = () => {
             id: productId,
             name: product.name,
             price: Number(product.price),
-            image: productImages[productId] || product.image || img1
+            image: product.image || productImages[productId] || img1
         })
     }
 
@@ -347,8 +347,8 @@ const Home = () => {
                                 )
 
                                 const productImage =
-                                    productImages[productId] ||
-                                    product.image ||
+                                product.image ||
+                                productImages[productId] ||
                                     img1
 
                                 return (
