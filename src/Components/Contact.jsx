@@ -63,7 +63,7 @@ const navigate = useNavigate()
 
                     <div className='dd'>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/about">About</Link></li>
                         <li><Link to="/cart">Cart</Link></li>
                     </div>
 
@@ -116,14 +116,14 @@ const navigate = useNavigate()
                         <div className={`mobile-nav ${menuOpen ? "active" : ""}`}>
 
                             <li>
-                                <Link to="/about" onClick={closeMenu}>
-                                    About
+                                <Link to="/" onClick={closeMenu}>
+                                    Home
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="/contact" onClick={closeMenu}>
-                                    Contact
+                                <Link to="/about" onClick={closeMenu}>
+                                    About
                                 </Link>
                             </li>
 

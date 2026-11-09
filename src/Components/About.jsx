@@ -113,8 +113,8 @@ const About = () => {
                         <div className={`mobile-nav ${menuOpen ? "active" : ""}`}>
 
                             <li>
-                                <Link to="/about" onClick={closeMenu}>
-                                    About
+                                <Link to="/" onClick={closeMenu}>
+                                    Home
                                 </Link>
                             </li>
 
