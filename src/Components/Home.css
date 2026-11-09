@@ -830,7 +830,7 @@ top: 0.7rem;
     }
 
     .fhs h1{
-    padding-top: 8.5rem;
+    padding-top: 12rem;
     color: #7138F5 ;
     font-size: clamp(2rem, 3.5vw, 3.5rem);
 }
