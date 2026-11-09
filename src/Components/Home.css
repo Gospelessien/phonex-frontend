@@ -847,15 +847,14 @@ top: 0.7rem;
     object-fit: cover;
 }
 
-.flory img{
+/* .flory img{
 width: clamp(470px, 36vw, 500px);
 height:57vh;
 max-width: 86%;
 object-fit: cover;
 position: relative;
 top: 1.4rem;
-/* margin-top: 2rem; */
-}
+} */
 
 .fhs{
     /* background: url("../assets/img6.png"); */
