@@ -209,8 +209,8 @@ const About = () => {
                 <div className='woe'>
 
                     <h3>
-                        <span className="xxx"> &copy; 2026 PhoneX.</span>
-                        {" "}All Rights Reserved.
+                        <span className="xxx"> &copy; 2026 PhoneX.
+                        {" "}All Rights Reserved.</span>
                     </h3>
 
                 </div>
