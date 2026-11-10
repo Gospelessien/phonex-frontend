@@ -210,48 +210,115 @@ const Home = () => {
 
                 {/* HERO SECTION */}
 
-                <div className="fhs">
+                <section className="hero">
 
-                    <div>
+      {/* Background effects */}
+      <div className="hero-glow hero-glow-one"></div>
+      <div className="hero-glow hero-glow-two"></div>
+      <div className="hero-circle"></div>
 
-                        {/* <h1>Smartphones Made Better</h1>
+      <div className="hero-container">
 
-                        <h3>
-                            Discover Technology , <br />
-                            Without Limits.
-                        </h3>
+        {/* LEFT CONTENT */}
+        <div className="hero-content">
 
-                        <p className='pta'>Explore the latest Smartphones, <br />
-                        experience powerful performance, capture <br />
-                        stunning moments, and enjoy innovative <br />
-                         feautures designed to keep you ahead.
-                        </p>
+          {/* Flash Sale */}
+          <div className="flash-sale">
 
-                        <p className='parat'>From premium iPhones to powerful <br />
-                        Android devices, find your perfect match <br /> 
-                        at prices you'll love.
-                        </p> */}
-                        
-                        <div className='fvi'>
-                            <div  className='ciro'>
-                                <h1>Flash Sale Up to 20% Off</h1>
-                                <h3>Brand-new Phones Ends Soon</h3>
-                                <div className="bds">
-                                    <h2>Upgrade your phone, <br /> Keep your money</h2>
-                                    <p>Swap your old phone and pay only the difference</p>
-                                </div>
-                                <button onClick={() => navigate("/cart")}>
-                            Cart <FaArrowRight/>
-                        </button>
-                            </div>
-                            <div className='flory'>
-                                <img src={img5}/>
-                            </div>
-                        </div>                        
+            <div className="flash-label">
+              <span className="flash-icon">ϟ</span>
+              <span>Flash Sale</span>
+            </div>
 
-                    </div>
+            <span className="flash-discount">
+              Up to 20% Off
+            </span>
 
-                </div>
+          </div>
+
+          {/* Main heading */}
+          <h1 className="hero-heading">
+            Brand-New
+            <br />
+            Phones.
+          </h1>
+
+          {/* Highlighted heading */}
+          <h2 className="hero-highlight">
+            Limited Time
+            <br />
+            Offers!
+          </h2>
+
+          {/* Decorative underline */}
+          <div className="hero-underline">
+            <span></span>
+          </div>
+
+          {/* Description */}
+          <p className="hero-description">
+            Get the latest smartphones
+            <br />
+            at unbeatable prices.
+          </p>
+
+          {/* Buttons */}
+          <div className="hero-buttons">
+
+            <a href="/cart" className="shop-button">
+              Cart
+
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </a>
+
+            <a href="#phones" className="explore-button">
+              Explore Phones
+
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <rect
+                  x="6"
+                  y="2"
+                  width="12"
+                  height="20"
+                  rx="2"
+                />
+                <path d="M11 18h2" />
+              </svg>
+            </a>
+
+          </div>
+        </div>
+
+        {/* RIGHT CONTENT - REAL PHONE IMAGE */}
+        <div className="hero-product">
+
+          <img
+            src={img5}
+            alt="Silver smartphone showing its rear cameras"
+            className="hero-phone-image"
+          />
+
+        </div>
+
+      </div>
+    </section>
 
 
                 <div className="kk"></div>
