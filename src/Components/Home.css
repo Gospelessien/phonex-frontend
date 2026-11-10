@@ -1509,14 +1509,14 @@ top: 1.9rem;
     .hero{
       /* margin-top: 6rem; */
       position: relative;
-      top: 2.9rem;
+      top: 3.8rem;
     }
 
     .kk{
     width: 100%;
     height: 0.1vh;
     position: relative;
-    top: 2.98rem;
+    top: 3.6rem;
     /* margin-top: 0.4rem; */
     border: 0.2px solid rgb(169, 168, 168);
 }
