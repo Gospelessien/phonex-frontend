@@ -1059,7 +1059,7 @@ top: 1.9rem;
   isolation: isolate;
   color: #fff;
   font-family: Arial, sans-serif;
-  position: relative;
+  /* position: relative; */
   /* top: 3.9rem; */
 }
 
@@ -1494,4 +1494,30 @@ top: 1.9rem;
     height: 390px;
   }
 
+
+}
+
+
+
+@media (max-width:480px) {
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .hero{
+      /* margin-top: 6rem; */
+      position: relative;
+      top: 2.9rem;
+    }
+
+    .kk{
+    width: 100%;
+    height: 0.1vh;
+    position: relative;
+    top: 2.98rem;
+    /* margin-top: 0.4rem; */
+    border: 0.2px solid rgb(169, 168, 168);
+}
 }
